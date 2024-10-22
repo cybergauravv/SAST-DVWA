@@ -27,7 +27,7 @@ This project is for educational purposes only. The authors are not responsible f
    * SonarQube
    * SonarQube Scanner
    * Java 17
-   * Clone the project from [DVWA Project]([https://pages.github.com/](https://github.com/cybergauravv/SAST-DVWA).
+   * Clone the project from [DVWA Project](https://github.com/cybergauravv/SAST-DVWA).
 
 ### Let's move to implemetation steps of this project.
 
