@@ -73,6 +73,10 @@ sudo docker run -d --name sonarqube -p 9000:9000 sonarqube:latest
    * Log in with default credentials Username: `admin` and Password: `admin` change the password for further use.
 
 
+<img style="display:block; margin:0 auto;" 
+src="./Images/SonarQube-Login.png" alt="SonarQube Login" width="480"/>
+
+
 
    
 > #### Note: SonarQube might take some time to load depending upon your resource usage.
