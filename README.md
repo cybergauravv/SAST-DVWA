@@ -12,11 +12,9 @@ Damn Vulnerable Web Application (DVWA) is a PHP/MySQL web application that is da
 
 The aim of DVWA is to practice some of the most common web vulnerabilities, with various levels of difficulty, with a simple straightforward interface. Please note, there are both documented and undocumented vulnerabilities with this software. This is intentional. You are encouraged to try and discover as many issues as possible.
 
----
 
-## Disclaimer
 
-This project is for educational purposes only. The authors are not responsible for any misuse of the information provided.
+
 
 ---
 
@@ -27,7 +25,7 @@ This project is for educational purposes only. The authors are not responsible f
    * SonarQube
    * SonarQube Scanner
    * Java 17
-   * Clone the project from [DVWA Project](https://github.com/cybergauravv/SAST-DVWA).
+   * Clone the project from [DVWA Project](https://github.com/cybergauravv/SAST-DVWA.git).
 
 ### Let's move to implemetation steps of this project.
 
@@ -108,6 +106,8 @@ src="./Images/Local-Project.png" alt="Local Project" width="800"/>
   <img style="display:block; margin:0 auto;" 
 src="./Images/Previous-Version.png" alt="Previous Version" width="800"/>
 
+
+
 #### Generate A Token:
 
   * Go to User > My Account > Security.
@@ -125,6 +125,8 @@ src="./Images/Token.png" alt="Token" width="800"/>
 
   * Copy the generated token value for further use.
 ---
+
+
 
 ### 6. Create a directory for your project
 
@@ -318,11 +320,13 @@ Navigate to the `Security Hotspots` tab:
   src="./Images/SQL-Injection-Risk.png" 
   alt="SQL Injection Risk" width="800"/>
 
-    * Recommendations for remediation.
+  * Recommendations for remediation.
 
    <img style="display:block; margin:0 auto;" 
    src="./Images/SQL-Injection-Mitigation.png" 
    alt="SQL Injection Mitigation" width="800"/>
+
+---   
 
 ### 13. Prioritize Security Hotspots
 
@@ -334,6 +338,8 @@ Navigate to the `Security Hotspots` tab:
   src="./Images/Review-Hotspot.png" 
   alt="Review Hotspot" width="800"/>
 
+---  
+
 ### 14. Document Findings
 
   * Take notes on key issues and hotspots for discussion with your team.
@@ -344,9 +350,14 @@ Navigate to the `Security Hotspots` tab:
   src="./Images/Acknowledged-Hotspot.png" 
   alt="Acknowledged Hotspot" width="800"/>
 
+---  
+
 ### 15. Plan Remediation
 
   * Collaborate with your team to address the identified hotspots and improve overall security posture.
+
+
+---
 
 ## Additional Tips
 
@@ -355,9 +366,13 @@ Navigate to the `Security Hotspots` tab:
   * Use the SonarQube [documentation](https://docs.sonarsource.com/sonarqube/10.7/) for further details on specific metrics and recommendations.
 
 
+---
 
 
 
+# Disclaimer
+
+This project is for educational purposes only. The authors are not responsible for any misuse of the information provided.
 
 
 
