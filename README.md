@@ -372,7 +372,26 @@ Navigate to the `Security Hotspots` tab:
 
 # Disclaimer
 
-This project is for educational purposes only. The authors are not responsible for any misuse of the information provided.
+This project is for educational purposes only. The authors are not responsible for any misuse of the information provided. 
+This project serves as a general demonstration of performing Static Application Security Testing (SAST) using SonarQube on the Damn Vulnerable Web Application (DVWA). DVWA is specifically chosen for this demonstration purpose. For more advanced functionalities of SonarQube, please refer to the [official documentation](https://docs.sonarqube.org/).
+
+Individuals interested in configuring and accessing DVWA can visit the original repository [here](https://github.com/digininja/DVWA).
+
+---
+
+# Thank You!
+
+
+Thank you for checking out this project! Your curiosity and engagement are what keep the world of open source thriving. If you found this project helpful, feel free to star the repo, contribute, or just drop a message. Every bit of feedback helps!
+
+Remember, the quest for learning and improving never ends. Stay curious, stay secure, and happy coding! 🚀
+
+---
+
+
+Crafted with dash of audacity by **Cybergauravv**. If you have any questions or just want to chat, feel free to reach out via [LinkedIn](https://www.linkedin.com/in/gaurav-soni-992a9a200/).
+
+
 
 
 
