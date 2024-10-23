@@ -277,7 +277,82 @@ src="./Images/Report.png" alt="Report" width="800"/>
 
 * Log in and go to your project (`Your-Project-Name`).
 
-* Review the analysis report for detected vulnerabilities.
+#### Review the analysis report for detected vulnerabilities:
+
+Review the Overview Section
+
+  * Quality Gate Status: Check if the project has passed or failed the quality gate.
+
+  * General Metrics: Look at key metrics such as:
+    * Lines of Code (LOC)
+    * Code Coverage
+
+  * Duplicated Lines
+
+  * Maintainability Rating
+
+  * Issues Summary: Note the total number of issues, categorized by type (bugs, vulnerabilities, and code smells).
+
+
+  <img style="display:block; margin:0 auto;" 
+  src="./Images/Analysis-Result.png" 
+  alt="Analysis Result" width="800"/>
+
+#### Examine Security Hotspots:
+
+Navigate to the `Security Hotspots` tab:
+
+  * Definition: Understand that security hotspots are pieces of code that require review for potential security issues.
+
+  * Review List: Examine the list of hotspots identified by SonarQube.
+
+  <img style="display:block; margin:0 auto;" 
+  src="./Images/Security-Hotspots.png" 
+  alt="Security Hotspots" width="800"/>
+
+  * Details: Click on individual hotspots to view:
+    * The specific code section flagged.
+    * The rationale for the flagging (e.g., potential vulnerabilities).
+
+  <img style="display:block; margin:0 auto;" 
+  src="./Images/SQL-Injection-Risk.png" 
+  alt="SQL Injection Risk" width="800"/>
+
+    * Recommendations for remediation.
+
+    <img style="display:block; margin:0 auto;" 
+    src="./Images/SQL-Injection-Mitigation.png" 
+    alt="SQL Injection Mitigation" width="800"/>
+
+### 13. Prioritize Security Hotspots
+
+  * Assess the severity and potential impact of each hotspot.
+
+  * Prioritize them for review and remediation based on risk.
+
+  <img style="display:block; margin:0 auto;" 
+  src="./Images/Review-Hotspot.png" 
+  alt="Review Hotspot" width="800"/>
+
+### 14. Document Findings
+
+  * Take notes on key issues and hotspots for discussion with your team.
+
+  * Consider exporting the report for sharing if needed.
+
+  <img style="display:block; margin:0 auto;" 
+  src="./Images/Acknowledged-Hotspot.png" 
+  alt="Acknowledged Hotspot" width="800"/>
+
+### 15. Plan Remediation
+
+  * Collaborate with your team to address the identified hotspots and improve overall security posture.
+
+## Additional Tips
+
+  * Regularly check the Overview and Security Hotspots sections to maintain code quality and security.
+
+  * Use the SonarQube [documentation](https://docs.sonarsource.com/sonarqube/10.7/) for further details on specific metrics and recommendations.
 
 
 
