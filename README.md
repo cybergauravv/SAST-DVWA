@@ -264,6 +264,9 @@ cd your-directory/sast-dvwa-project
 
 * The scanner will show progress in the terminal. Look for a success message indicating that the analysis report has been uploaded to SonarQube.
 
+<img style="display:block; margin:0 auto;" 
+src="./Images/Report.png" alt="Report" width="800"/>
+
 ---
 
 ### 12. Review the SonarQube Report
