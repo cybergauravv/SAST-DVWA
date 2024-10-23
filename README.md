@@ -65,6 +65,15 @@ sudo docker pull sonarqube:latest
 ```
 sudo docker run -d --name sonarqube -p 9000:9000 sonarqube:latest
 ```
+#### Verify docker process:
+
+```
+docker ps
+```
+
+<img style="display:block; margin:0 auto;" 
+src="./Images/Docker-ps.png" alt="Docker-ps" width="800"/>
+
 ---
 ### 5. Access SonarQube 
 
@@ -75,8 +84,6 @@ sudo docker run -d --name sonarqube -p 9000:9000 sonarqube:latest
 
 <img style="display:block; margin:0 auto;" 
 src="./Images/SonarQube-Login.png" alt="SonarQube Login" width="800"/>
-
-
 
    
 > #### Note: SonarQube might take some time to load depending upon your resource usage.
@@ -90,8 +97,16 @@ src="./Images/SonarQube-Login.png" alt="SonarQube Login" width="800"/>
    * Choose the project type (e.g., Local, GitHub, GitLab, etc.).
 
    * Enter the project name, project key, and other required details.
+ 
+  <img style="display:block; margin:0 auto;" 
+src="./Images/Local-Project.png" alt="Local Project" width="800"/>
 
    * Click "Create" to create the project.
+ 
+   * On second page, "Setup project as Clean As You Code" Select below:
+ 
+  <img style="display:block; margin:0 auto;" 
+src="./Images/Previous-Version.png" alt="Previous Version" width="800"/>
 
 #### Generate A Token:
 
@@ -104,6 +119,9 @@ src="./Images/SonarQube-Login.png" alt="SonarQube Login" width="800"/>
   * Choose an expiration date for the token (optional).
 
   * Click "Generate" to create the token.
+
+  <img style="display:block; margin:0 auto;" 
+src="./Images/Token.png" alt="Token" width="800"/>
 
   * Copy the generated token value for further use.
 ---
