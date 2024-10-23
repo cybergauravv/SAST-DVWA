@@ -1,16 +1,13 @@
-# Neither the config file or its backup should go
-# into the repo.
-config/config.inc.php.bak
-config/config.inc.php
+# Ignore everything
+*
 
-# Vim swap files
-.*swp
+# But not these files and directories
+!dvwa/
+!config/
+!hackable/
+!index.php
+!php.ini
+!setup.php
+!database/
+!.gitignore
 
-# VS Code editor files
-*.code-workspace
-
-# Used by pytest
-tests/__pycache__/
-
-# Don't include any uploaded images
-hackable/uploads/*
