@@ -320,9 +320,9 @@ Navigate to the `Security Hotspots` tab:
 
     * Recommendations for remediation.
 
-    <img style="display:block; margin:0 auto;" 
-    src="./Images/SQL-Injection-Mitigation.png" 
-    alt="SQL Injection Mitigation" width="800"/>
+   <img style="display:block; margin:0 auto;" 
+   src="./Images/SQL-Injection-Mitigation.png" 
+   alt="SQL Injection Mitigation" width="800"/>
 
 ### 13. Prioritize Security Hotspots
 
