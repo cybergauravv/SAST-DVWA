@@ -2,12 +2,13 @@
 *
 
 # But not these files and directories
-!dvwa/
+!.gitignore
+!Images/
 !config/
+!database/
+!dvwa/
 !hackable/
 !index.php
 !php.ini
 !setup.php
-!database/
-!.gitignore
 
