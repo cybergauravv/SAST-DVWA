@@ -74,7 +74,7 @@ sudo docker run -d --name sonarqube -p 9000:9000 sonarqube:latest
 
 
 <img style="display:block; margin:0 auto;" 
-src="./Images/SonarQube-Login.png" alt="SonarQube Login" width="480"/>
+src="./Images/SonarQube-Login.png" alt="SonarQube Login" width="800"/>
 
 
 
