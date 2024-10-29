@@ -32,7 +32,7 @@ The aim of DVWA is to practice some of the most common web vulnerabilities, with
 ---
 ## Project Implemetation
 
-### 1. Install Docker
+### 1. Install Docker & Start Docker Service
 
 #### Open Your Terminal and run below:
 
@@ -138,16 +138,16 @@ mkdir <your-directory>
 cd <your-directory> 
 ```
 ---
-### 7. Clone the DVWA source-code
+### 7. Clone the DVWA project
 
 ```
-git clone https://github.com/yourusername/sast-dvwa-project.git
+git clone `https://github.com/cybergauravv/SAST-DVWA.git`
 ```
 
 #### Navigate to the project directory:
 
 ```
-cd your-directory/sast-dvwa-project
+cd your-directory/SAST-DVWA
 ```
 ---
 ### 8. Install SonarQube Scanner
@@ -169,7 +169,7 @@ mv sonar-scanner-4.6.2.2472-linux/ sonar-scanner
 #### Open the configuration file:
 
 ```
-nano ~/sast-dvwa-project/sonar-scanner/conf/sonar-scanner.properties
+nano ~/SAST-DVWA/sonar-scanner/conf/sonar-scanner.properties
 ```
 
 #### Add the following to the configuration file:
@@ -193,13 +193,14 @@ sonar.exclusions=**/config/**,**/docs/**,**/external/**,**/README*.md,**/*.txt
 
 * Press `Ctrl + X`, then `Y`, and `Enter` to save and close the file.
 
-> #### Note: I see the script is setting up the environment variables. The issue seems to be `use_embedded_jre=true`, which forces SonarScanner to use its own JRE, ignoring the system settings. We need to disable this and force it to use `Java 17`. To fix this:
+> #### Note: When running sonar-scanner I see the script is setting up the environment variables. The issue seems to be `use_embedded_jre=true`, which forces SonarScanner to use its own JRE, ignoring the system settings. We need to disable this and force it to use `Java 17`.
+> To fix this:
 
 #### Navigate to the Directory: 
 Open the sonar-scanner run file in a text editor. Run the following command:
 
 ```
-nano ~/your-directory/sast-dvwa-project/sonar-scanner/bin/sonar-scanner
+nano ~/your-directory/SAST-DVWA/sonar-scanner/bin/sonar-scanner
 ```
 #### Make below changes to script:
 
@@ -253,13 +254,13 @@ exec "$java_cmd" \
 #### Navigate to your project directory:
 
 ```
-cd your-directory/sast-dvwa-project
+cd your-directory/SAST-DVWA
 ```
 
 #### Run the SonarQube Scanner:
 
 ```
-../sonar-scanner/bin/sonar-scanner
+../sonar-scanner/bin/sonar-scanner -X
 ```
 
 #### Monitor the Output:
