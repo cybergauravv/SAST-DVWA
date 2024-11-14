@@ -1,5 +1,8 @@
 # SAST with DVWA Project
 
+<img style="display:block; margin:0 auto;" 
+src="./Images/project-logo.png" alt="project logo" width="1000"/>
+
 ## Project Overview
 
 This project demonstrates performing **Static Application Security Testing (SAST)** using **SonarQube** on the **Damn Vulnerable Web Application (DVWA)** to identify security vulnerabilities and improve code quality. The DVWA is a PHP/MySQL web application that aims to be an educational tool for security professionals.
